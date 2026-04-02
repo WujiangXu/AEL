@@ -1,6 +1,6 @@
 # AEL: Agent Evolving Learning
 
-Code and data for the paper *"Agent Evolving Learning: A Scalable Framework for LLM-Driven Co-Evolution of Planning, Tools, and Memory"* (COLM 2026 submission).
+Code and data for the paper *"AEL: Agent Evolving Learning for Open-Ended Environments"* (COLM 2026 submission).
 
 ## Overview
 
@@ -144,14 +144,6 @@ AEL/
 ├── tests/                  # Smoke tests
 ├── scripts/                # Data collection utilities
 └── docs/                   # Architecture documentation
-```
-
-## Optional: XMem Memory Server
-
-For the external memory backend (not required for paper reproduction):
-
-```bash
-bash scripts/start_xmem.sh start experiment_name seed port
 ```
 
 ## License
