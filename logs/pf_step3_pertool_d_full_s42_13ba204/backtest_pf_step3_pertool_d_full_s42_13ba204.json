@@ -1,0 +1,5169 @@
+{
+    "metrics": {
+        "total_return": 0.021587873449103068,
+        "avg_bar_return": 0.00011484150760428014,
+        "volatility": 0.002467744342601331,
+        "sharpe_ratio": 1.4775050919012218,
+        "max_drawdown": 0.04289856791640042,
+        "avg_turnover": 0.04198660606516655,
+        "n_bars": 208,
+        "final_value": 1.023524704009029
+    },
+    "phase_metrics": {
+        "train": {
+            "avg_return": 0.0002119739430195753,
+            "total_return": 0.027069675186838893,
+            "sharpe": 2.627622438495432,
+            "sortino": 3.456547230866089,
+            "calmar": 10.796545742017754,
+            "total_return_pct": 2.7069675186838893,
+            "max_drawdown_pct": 1.9790564470280234,
+            "win_rate": 0.546875,
+            "tail_ratio": 1.1843480050761694,
+            "n_bars": 128
+        },
+        "val": {
+            "avg_return": -0.00016561124239789464,
+            "total_return": -0.006727891221791071,
+            "sharpe": -2.097006342387085,
+            "sortino": -4.39139377813712,
+            "calmar": -12.08212575279631,
+            "total_return_pct": -0.6727891221791071,
+            "max_drawdown_pct": 1.3816784873178611,
+            "win_rate": 0.4,
+            "tail_ratio": 1.096405076018294,
+            "n_bars": 40
+        },
+        "test": {
+            "avg_return": 8.447046427751008e-05,
+            "total_return": 0.003298544334722875,
+            "sharpe": 1.296589294096585,
+            "sortino": 2.3045555811419995,
+            "calmar": 5.521922877536032,
+            "total_return_pct": 0.3298544334722875,
+            "max_drawdown_pct": 1.5419669901243482,
+            "win_rate": 0.475,
+            "tail_ratio": 1.1383135270884839,
+            "n_bars": 40
+        }
+    },
+    "score_history": [
+        {
+            "episode": 0,
+            "bar_time": "2025-01-06 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0018959020660521634,
+            "total_value": 1.001895902066052,
+            "drawdown": 0.0,
+            "turnover": 0.23,
+            "score": 0.37918041321043267,
+            "planner": "sequential"
+        },
+        {
+            "episode": 1,
+            "bar_time": "2025-01-06 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.004428041075834361,
+            "total_value": 0.9974594658579934,
+            "drawdown": 0.004428041075834431,
+            "turnover": 0.07,
+            "score": -0.8856082151668722,
+            "planner": "sequential"
+        },
+        {
+            "episode": 2,
+            "bar_time": "2025-01-06 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.001543349301730274,
+            "total_value": 0.9959200374878572,
+            "drawdown": 0.0059645563634623065,
+            "turnover": 0.091764705882353,
+            "score": -0.3086698603460548,
+            "planner": "sequential"
+        },
+        {
+            "episode": 3,
+            "bar_time": "2025-01-06 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0037498656638734725,
+            "total_value": 0.9996546038403965,
+            "drawdown": 0.0022370569846963903,
+            "turnover": 0.05235294117647064,
+            "score": 0.7499731327746945,
+            "planner": "sequential"
+        },
+        {
+            "episode": 4,
+            "bar_time": "2025-01-07 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0018627851081988358,
+            "total_value": 0.9977924621310202,
+            "drawdown": 0.004095674936457908,
+            "turnover": 0.060000000000000005,
+            "score": -0.37255702163976717,
+            "planner": "sequential"
+        },
+        {
+            "episode": 5,
+            "bar_time": "2025-01-07 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0004620620328191669,
+            "total_value": 0.9982535041444041,
+            "drawdown": 0.0036355053595257315,
+            "turnover": 0.030000000000000013,
+            "score": 0.09241240656383337,
+            "planner": "sequential"
+        },
+        {
+            "episode": 6,
+            "bar_time": "2025-01-07 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0015068511115006818,
+            "total_value": 0.9967492847421245,
+            "drawdown": 0.005136878305734616,
+            "turnover": 0.03,
+            "score": -0.3013702223001363,
+            "planner": "sequential"
+        },
+        {
+            "episode": 7,
+            "bar_time": "2025-01-07 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.004799285339736289,
+            "total_value": 0.9919656005124691,
+            "drawdown": 0.009911510300726144,
+            "turnover": 0.029999999999999995,
+            "score": -0.9598570679472578,
+            "planner": "sequential"
+        },
+        {
+            "episode": 8,
+            "bar_time": "2025-01-08 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0006149656517957458,
+            "total_value": 0.9925756252845472,
+            "drawdown": 0.009302639887322708,
+            "turnover": 0.08999999999999998,
+            "score": 0.12299313035914916,
+            "planner": "sequential"
+        },
+        {
+            "episode": 9,
+            "bar_time": "2025-01-08 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.001742648876714422,
+            "total_value": 0.9943053360830035,
+            "drawdown": 0.0075762022455583425,
+            "turnover": 0.04000000000000001,
+            "score": 0.34852977534288443,
+            "planner": "sequential"
+        },
+        {
+            "episode": 10,
+            "bar_time": "2025-01-08 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0007767288210794299,
+            "total_value": 0.9950776416944922,
+            "drawdown": 0.006805358079117436,
+            "turnover": 0.03932038834951457,
+            "score": 0.2414019978525972,
+            "planner": "sequential"
+        },
+        {
+            "episode": 11,
+            "bar_time": "2025-01-08 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.003719450256473501,
+            "total_value": 0.9913764999048806,
+            "drawdown": 0.010499496144738106,
+            "turnover": 0.03631067961165047,
+            "score": -0.5801280020746606,
+            "planner": "sequential"
+        },
+        {
+            "episode": 12,
+            "bar_time": "2025-01-10 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0023936673551840323,
+            "total_value": 0.9890034743403617,
+            "drawdown": 0.012868031198754584,
+            "turnover": 0.060000000000000005,
+            "score": -0.3062575931268669,
+            "planner": "sequential"
+        },
+        {
+            "episode": 13,
+            "bar_time": "2025-01-10 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0011110946543013128,
+            "total_value": 0.9879045978669367,
+            "drawdown": 0.013964828252379569,
+            "turnover": 0.019999999999999997,
+            "score": -0.05036869963596962,
+            "planner": "sequential"
+        },
+        {
+            "episode": 14,
+            "bar_time": "2025-01-10 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0014029799230191862,
+            "total_value": 0.9865185875502711,
+            "drawdown": 0.015348215801732231,
+            "turnover": 0.019999999999999997,
+            "score": -0.10641093890406998,
+            "planner": "sequential"
+        },
+        {
+            "episode": 15,
+            "bar_time": "2025-01-10 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.007443614117150268,
+            "total_value": 0.9938618512353915,
+            "drawdown": 0.008018847880396755,
+            "turnover": 0.049999999999999996,
+            "score": 1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 16,
+            "bar_time": "2025-01-13 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011767412901659456,
+            "total_value": 0.995031369512461,
+            "drawdown": 0.006851542699631221,
+            "turnover": 0.08000000000000002,
+            "score": 0.2459908310445634,
+            "planner": "sequential"
+        },
+        {
+            "episode": 17,
+            "bar_time": "2025-01-13 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0034123367397643836,
+            "total_value": 0.9984267516118666,
+            "drawdown": 0.0034625857307446976,
+            "turnover": 0.020000000000000007,
+            "score": 0.5794574498006453,
+            "planner": "sequential"
+        },
+        {
+            "episode": 18,
+            "bar_time": "2025-01-13 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00013149588018861012,
+            "total_value": 0.9982954626073596,
+            "drawdown": 0.003593626295174843,
+            "turnover": 0.030000000000000016,
+            "score": -0.007837542639768016,
+            "planner": "sequential"
+        },
+        {
+            "episode": 19,
+            "bar_time": "2025-01-13 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0005320379737491464,
+            "total_value": 0.9988265937024883,
+            "drawdown": 0.0030635002670780787,
+            "turnover": 0.05000000000000002,
+            "score": 0.10240273249403722,
+            "planner": "sequential"
+        },
+        {
+            "episode": 20,
+            "bar_time": "2025-01-14 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0030431678982412095,
+            "total_value": 0.9957869966766233,
+            "drawdown": 0.006097345419650217,
+            "turnover": 0.47000000000000003,
+            "score": -0.4963994741455675,
+            "planner": "sequential"
+        },
+        {
+            "episode": 21,
+            "bar_time": "2025-01-14 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.004267684915815839,
+            "total_value": 1.0000367018217058,
+            "drawdown": 0.0018556820529082264,
+            "turnover": 0.23000000000000004,
+            "score": 0.7219910728093851,
+            "planner": "sequential"
+        },
+        {
+            "episode": 22,
+            "bar_time": "2025-01-14 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002721018188090391,
+            "total_value": 1.0027578198761204,
+            "drawdown": 0.0,
+            "turnover": 0.059999999999999984,
+            "score": 0.44179756725026814,
+            "planner": "sequential"
+        },
+        {
+            "episode": 23,
+            "bar_time": "2025-01-14 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00863910536370213,
+            "total_value": 1.0114207503363064,
+            "drawdown": 0.0,
+            "turnover": 0.06000000000000002,
+            "score": 1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 24,
+            "bar_time": "2025-01-15 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002161626420842784,
+            "total_value": 1.013607064152822,
+            "drawdown": 0.0,
+            "turnover": 0.060000000000000005,
+            "score": 0.24538409218882856,
+            "planner": "sequential"
+        },
+        {
+            "episode": 25,
+            "bar_time": "2025-01-15 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011403665474440643,
+            "total_value": 1.014762947741035,
+            "drawdown": 0.0,
+            "turnover": 0.04999999999999999,
+            "score": 0.08844924058371956,
+            "planner": "sequential"
+        },
+        {
+            "episode": 26,
+            "bar_time": "2025-01-15 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0007617201033423253,
+            "total_value": 1.0139899824036136,
+            "drawdown": 0.000761720103342388,
+            "turnover": 0.05,
+            "score": -0.20152652434951845,
+            "planner": "sequential"
+        },
+        {
+            "episode": 27,
+            "bar_time": "2025-01-15 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.007514272146496447,
+            "total_value": 1.0063705857220118,
+            "drawdown": 0.008270268477682799,
+            "turnover": 0.04999999999999999,
+            "score": -1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 28,
+            "bar_time": "2025-01-16 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0016864525999113421,
+            "total_value": 1.008067782012777,
+            "drawdown": 0.006597763293547541,
+            "turnover": 0.07485148514851489,
+            "score": 0.2057974941417534,
+            "planner": "sequential"
+        },
+        {
+            "episode": 29,
+            "bar_time": "2025-01-16 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0020312639133452898,
+            "total_value": 1.0060201303049685,
+            "drawdown": 0.008615625408405792,
+            "turnover": 0.5306930693069307,
+            "score": -0.331093628796977,
+            "planner": "sequential"
+        },
+        {
+            "episode": 30,
+            "bar_time": "2025-01-16 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0007911510186547781,
+            "total_value": 1.0052242164540905,
+            "drawdown": 0.009399960166242335,
+            "turnover": 0.14,
+            "score": -0.14494883383856,
+            "planner": "sequential"
+        },
+        {
+            "episode": 31,
+            "bar_time": "2025-01-16 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.007430833334350259,
+            "total_value": 1.0126938700702137,
+            "drawdown": 0.002038976369236956,
+            "turnover": 0.06999999999999998,
+            "score": 1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 32,
+            "bar_time": "2025-01-17 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.001062666960618678,
+            "total_value": 1.0137700263871583,
+            "drawdown": 0.000978476161439451,
+            "turnover": 0.07000000000000005,
+            "score": 0.09283236258045002,
+            "planner": "sequential"
+        },
+        {
+            "episode": 33,
+            "bar_time": "2025-01-17 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0010339041078103114,
+            "total_value": 1.0127218853925015,
+            "drawdown": 0.0020113686187271797,
+            "turnover": 0.08999999999999998,
+            "score": -0.20659290747814202,
+            "planner": "sequential"
+        },
+        {
+            "episode": 34,
+            "bar_time": "2025-01-17 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0007085093355100285,
+            "total_value": 1.0120043624824255,
+            "drawdown": 0.0027184528807937675,
+            "turnover": 0.060000000000000026,
+            "score": -0.15645744302052744,
+            "planner": "sequential"
+        },
+        {
+            "episode": 35,
+            "bar_time": "2025-01-17 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0026784366065149504,
+            "total_value": 1.0147149520128513,
+            "drawdown": 4.72974779877756e-05,
+            "turnover": 0.07000000000000003,
+            "score": 0.3386639099949852,
+            "planner": "sequential"
+        },
+        {
+            "episode": 36,
+            "bar_time": "2025-01-21 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0023447373039157233,
+            "total_value": 1.0170941920136771,
+            "drawdown": 0.0,
+            "turnover": 0.06999999999999997,
+            "score": 0.28360733969296864,
+            "planner": "sequential"
+        },
+        {
+            "episode": 37,
+            "bar_time": "2025-01-21 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011666594548953415,
+            "total_value": 1.018280794569309,
+            "drawdown": 0.0,
+            "turnover": 0.05000000000000002,
+            "score": 0.10452095840377272,
+            "planner": "sequential"
+        },
+        {
+            "episode": 38,
+            "bar_time": "2025-01-21 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0010352777658538806,
+            "total_value": 1.0193349980353226,
+            "drawdown": 0.0,
+            "turnover": 0.04000000000000002,
+            "score": 0.08333797220979677,
+            "planner": "sequential"
+        },
+        {
+            "episode": 39,
+            "bar_time": "2025-01-21 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.001937350509624439,
+            "total_value": 1.0173601888574009,
+            "drawdown": 0.0019373505096243807,
+            "turnover": 0.009999999999999998,
+            "score": -0.3690252042022042,
+            "planner": "sequential"
+        },
+        {
+            "episode": 40,
+            "bar_time": "2025-01-22 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0005413541963720397,
+            "total_value": 1.0168094366499412,
+            "drawdown": 0.0024776559131680924,
+            "turnover": 0.06000000000000002,
+            "score": -0.14989059898497234,
+            "planner": "sequential"
+        },
+        {
+            "episode": 41,
+            "bar_time": "2025-01-22 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -7.49643420281088e-05,
+            "total_value": 1.0167332121995547,
+            "drawdown": 0.0025524345193509274,
+            "turnover": 0.07,
+            "score": -0.07560255687763445,
+            "planner": "sequential"
+        },
+        {
+            "episode": 42,
+            "bar_time": "2025-01-22 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0009558675230270357,
+            "total_value": 1.0177050744566791,
+            "drawdown": 0.0015990067855856775,
+            "turnover": 0.06999999999999999,
+            "score": 0.087372128744822,
+            "planner": "sequential"
+        },
+        {
+            "episode": 43,
+            "bar_time": "2025-01-22 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.003961156059309671,
+            "total_value": 1.0217363630789533,
+            "drawdown": 0.0,
+            "turnover": 0.010000000000000009,
+            "score": 0.5563856311955954,
+            "planner": "sequential"
+        },
+        {
+            "episode": 44,
+            "bar_time": "2025-01-23 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002447851799143851,
+            "total_value": 1.0242374222735668,
+            "drawdown": 0.0,
+            "turnover": 0.029999999999999985,
+            "score": 0.30871321883742403,
+            "planner": "sequential"
+        },
+        {
+            "episode": 45,
+            "bar_time": "2025-01-23 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.000670738775423884,
+            "total_value": 1.024924418027926,
+            "drawdown": 0.0,
+            "turnover": 0.030000000000000013,
+            "score": 0.021353511255689232,
+            "planner": "sequential"
+        },
+        {
+            "episode": 46,
+            "bar_time": "2025-01-23 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0010222996098589883,
+            "total_value": 1.025972197860611,
+            "drawdown": 0.0,
+            "turnover": 0.010000000000000009,
+            "score": 0.0779175512946536,
+            "planner": "sequential"
+        },
+        {
+            "episode": 47,
+            "bar_time": "2025-01-23 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0004248524394496356,
+            "total_value": 1.0255363110695424,
+            "drawdown": 0.0004248524394495924,
+            "turnover": 0.009999999999999981,
+            "score": -0.15910905224527525,
+            "planner": "sequential"
+        },
+        {
+            "episode": 48,
+            "bar_time": "2025-01-24 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.001347416352619478,
+            "total_value": 1.0269181354652825,
+            "drawdown": 0.0,
+            "turnover": 0.019999999999999983,
+            "score": 0.13472041023955236,
+            "planner": "sequential"
+        },
+        {
+            "episode": 49,
+            "bar_time": "2025-01-24 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00035406091446373093,
+            "total_value": 1.0272817270394048,
+            "drawdown": 0.0,
+            "turnover": 0.04000000000000001,
+            "score": -0.03207296732594382,
+            "planner": "sequential"
+        },
+        {
+            "episode": 50,
+            "bar_time": "2025-01-24 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0002370948531051942,
+            "total_value": 1.0270381638292347,
+            "drawdown": 0.00023709485310518676,
+            "turnover": 0.030000000000000006,
+            "score": -0.13113738969993416,
+            "planner": "sequential"
+        },
+        {
+            "episode": 51,
+            "bar_time": "2025-01-24 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0050159757099317226,
+            "total_value": 1.032189762312175,
+            "drawdown": 0.0,
+            "turnover": 0.03999999999999998,
+            "score": 0.7455840479206873,
+            "planner": "sequential"
+        },
+        {
+            "episode": 52,
+            "bar_time": "2025-01-27 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0019445275554121125,
+            "total_value": 1.0341968837474054,
+            "drawdown": 0.0,
+            "turnover": 0.020000000000000007,
+            "score": 0.22281640915012707,
+            "planner": "sequential"
+        },
+        {
+            "episode": 53,
+            "bar_time": "2025-01-27 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0024773804125371845,
+            "total_value": 1.0367589828499082,
+            "drawdown": 0.0,
+            "turnover": 0.020000000000000007,
+            "score": 0.3097082042976415,
+            "planner": "sequential"
+        },
+        {
+            "episode": 54,
+            "bar_time": "2025-01-27 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0002856497747452117,
+            "total_value": 1.0370551328198243,
+            "drawdown": 0.0,
+            "turnover": 0.030000000000000016,
+            "score": -0.0658619808371113,
+            "planner": "sequential"
+        },
+        {
+            "episode": 55,
+            "bar_time": "2025-01-27 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0017140090719776069,
+            "total_value": 1.0352776109140303,
+            "drawdown": 0.0017140090719775433,
+            "turnover": 0.019999999999999997,
+            "score": -0.40603727280579,
+            "planner": "sequential"
+        },
+        {
+            "episode": 56,
+            "bar_time": "2025-01-28 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 3.909675368934717e-05,
+            "total_value": 1.0353180869077843,
+            "drawdown": 0.0016749793304786987,
+            "turnover": 0.019999999999999997,
+            "score": -0.10057402473991892,
+            "planner": "sequential"
+        },
+        {
+            "episode": 57,
+            "bar_time": "2025-01-28 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0003335668013847518,
+            "total_value": 1.0349727391651187,
+            "drawdown": 0.0020079874143657792,
+            "turnover": 0.04000000000000001,
+            "score": -0.16426955595990475,
+            "planner": "sequential"
+        },
+        {
+            "episode": 58,
+            "bar_time": "2025-01-28 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0008505327329653438,
+            "total_value": 1.0358530173575053,
+            "drawdown": 0.0011591625404237958,
+            "turnover": 0.030000000000000006,
+            "score": 0.044403509221546004,
+            "planner": "sequential"
+        },
+        {
+            "episode": 59,
+            "bar_time": "2025-01-28 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.000985777016927614,
+            "total_value": 1.0368741374549315,
+            "drawdown": 0.00017452819928740038,
+            "turnover": 0.0,
+            "score": 0.06790100848775364,
+            "planner": "sequential"
+        },
+        {
+            "episode": 60,
+            "bar_time": "2025-01-29 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0026997203818614206,
+            "total_value": 1.0340748672126194,
+            "drawdown": 0.002873777403812015,
+            "turnover": 0.02,
+            "score": -0.5821846562420431,
+            "planner": "sequential"
+        },
+        {
+            "episode": 61,
+            "bar_time": "2025-01-29 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.003403557206535119,
+            "total_value": 1.030555334246221,
+            "drawdown": 0.006267553544554451,
+            "turnover": 0.029999999999999995,
+            "score": -0.6913184986606863,
+            "planner": "sequential"
+        },
+        {
+            "episode": 62,
+            "bar_time": "2025-01-29 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002622711695581604,
+            "total_value": 1.0332581837742927,
+            "drawdown": 0.0036612798349567608,
+            "turnover": 0.06999999999999998,
+            "score": 0.37408405620821955,
+            "planner": "sequential"
+        },
+        {
+            "episode": 63,
+            "bar_time": "2025-01-29 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0004164798394988814,
+            "total_value": 1.0328278525717534,
+            "drawdown": 0.004076234825217717,
+            "turnover": 0.010000000000000002,
+            "score": -0.166018149168681,
+            "planner": "sequential"
+        },
+        {
+            "episode": 64,
+            "bar_time": "2025-01-30 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011775689899315796,
+            "total_value": 1.0340440786228795,
+            "drawdown": 0.00290346588301197,
+            "turnover": 0.020000000000000004,
+            "score": 0.1190447039923882,
+            "planner": "sequential"
+        },
+        {
+            "episode": 65,
+            "bar_time": "2025-01-30 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00425737345804688,
+            "total_value": 1.038446390437659,
+            "drawdown": 0.0,
+            "turnover": 0.1,
+            "score": 0.6615209635008686,
+            "planner": "sequential"
+        },
+        {
+            "episode": 66,
+            "bar_time": "2025-01-30 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0005598651082223775,
+            "total_value": 1.0378650005368935,
+            "drawdown": 0.0005598651082224731,
+            "turnover": 0.029999999999999978,
+            "score": -0.2022426516355924,
+            "planner": "sequential"
+        },
+        {
+            "episode": 67,
+            "bar_time": "2025-01-30 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0009007952750572641,
+            "total_value": 1.0387999044255245,
+            "drawdown": 0.0,
+            "turnover": 0.030000000000000006,
+            "score": 0.061392614339421246,
+            "planner": "sequential"
+        },
+        {
+            "episode": 68,
+            "bar_time": "2025-01-31 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0004973476842086565,
+            "total_value": 1.0382832596987024,
+            "drawdown": 0.0004973476842085648,
+            "turnover": 0.020000000000000007,
+            "score": -0.19164048387875987,
+            "planner": "sequential"
+        },
+        {
+            "episode": 69,
+            "bar_time": "2025-01-31 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00440444170610296,
+            "total_value": 1.0337102016069368,
+            "drawdown": 0.004899598851428823,
+            "turnover": 0.09000000000000004,
+            "score": -0.8806847013190303,
+            "planner": "sequential"
+        },
+        {
+            "episode": 70,
+            "bar_time": "2025-01-31 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.001542003185175934,
+            "total_value": 1.03211621718351,
+            "drawdown": 0.006434046839569748,
+            "turnover": 0.09000000000000001,
+            "score": -0.36040039589118,
+            "planner": "sequential"
+        },
+        {
+            "episode": 71,
+            "bar_time": "2025-01-31 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00036573349747419864,
+            "total_value": 1.0324936966574205,
+            "drawdown": 0.00607066648854904,
+            "turnover": 0.04999999999999999,
+            "score": -0.014991455005432947,
+            "planner": "sequential"
+        },
+        {
+            "episode": 72,
+            "bar_time": "2025-02-03 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0004066414167345881,
+            "total_value": 1.0320738419578421,
+            "drawdown": 0.006474839320862285,
+            "turnover": 0.0,
+            "score": -0.15459947300209692,
+            "planner": "sequential"
+        },
+        {
+            "episode": 73,
+            "bar_time": "2025-02-03 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0012729211171828053,
+            "total_value": 1.0333875905457623,
+            "drawdown": 0.005210160163381285,
+            "turnover": 0.01999999999999999,
+            "score": 0.1523123358066968,
+            "planner": "sequential"
+        },
+        {
+            "episode": 74,
+            "bar_time": "2025-02-03 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0017128635096166308,
+            "total_value": 1.0316175386506259,
+            "drawdown": 0.006914099379774774,
+            "turnover": 0.0,
+            "score": -0.3943637632145214,
+            "planner": "sequential"
+        },
+        {
+            "episode": 75,
+            "bar_time": "2025-02-03 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00033797697900366105,
+            "total_value": 1.0319662016298263,
+            "drawdown": 0.006578459207191913,
+            "turnover": 0.0,
+            "score": -0.014849229825201416,
+            "planner": "sequential"
+        },
+        {
+            "episode": 76,
+            "bar_time": "2025-02-04 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0018605526361009242,
+            "total_value": 1.0338862290666357,
+            "drawdown": 0.0047301461407104305,
+            "turnover": 0.030000000000000006,
+            "score": 0.26645513582468705,
+            "planner": "sequential"
+        },
+        {
+            "episode": 77,
+            "bar_time": "2025-02-04 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0013747336765485378,
+            "total_value": 1.0353075472834534,
+            "drawdown": 0.0033619151553565233,
+            "turnover": 0.04000000000000001,
+            "score": 0.1742898631762748,
+            "planner": "sequential"
+        },
+        {
+            "episode": 78,
+            "bar_time": "2025-02-04 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0018983553395994371,
+            "total_value": 1.0333421656729402,
+            "drawdown": 0.0052538883853695505,
+            "turnover": 0.48,
+            "score": -0.43664088959628694,
+            "planner": "sequential"
+        },
+        {
+            "episode": 79,
+            "bar_time": "2025-02-04 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.002313133025685142,
+            "total_value": 1.0309519077826892,
+            "drawdown": 0.007554868468317193,
+            "turnover": 0.25,
+            "score": -0.5082180811881211,
+            "planner": "sequential"
+        },
+        {
+            "episode": 80,
+            "bar_time": "2025-02-05 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0022147556748868583,
+            "total_value": 1.0332352143709862,
+            "drawdown": 0.005356844981243695,
+            "turnover": 0.06,
+            "score": 0.34163424215744326,
+            "planner": "sequential"
+        },
+        {
+            "episode": 81,
+            "bar_time": "2025-02-05 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0015815110400924746,
+            "total_value": 1.0348692872695262,
+            "drawdown": 0.003783805850629144,
+            "turnover": 0.06000000000000003,
+            "score": 0.22032560622684194,
+            "planner": "sequential"
+        },
+        {
+            "episode": 82,
+            "bar_time": "2025-02-05 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002322246289120156,
+            "total_value": 1.0372725086316124,
+            "drawdown": 0.0014703464906042933,
+            "turnover": 0.03,
+            "score": 0.3577179920744082,
+            "planner": "sequential"
+        },
+        {
+            "episode": 83,
+            "bar_time": "2025-02-05 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0006973702324568232,
+            "total_value": 1.0365491456611469,
+            "drawdown": 0.0021666913471871632,
+            "turnover": 0.039999999999999994,
+            "score": -0.2159701406924063,
+            "planner": "sequential"
+        },
+        {
+            "episode": 84,
+            "bar_time": "2025-02-06 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00012662611032545468,
+            "total_value": 1.0364178914746707,
+            "drawdown": 0.0022930430978149985,
+            "turnover": 0.05000000000000001,
+            "score": -0.1060567096813054,
+            "planner": "sequential"
+        },
+        {
+            "episode": 85,
+            "bar_time": "2025-02-06 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00018702251411885088,
+            "total_value": 1.0366117249544122,
+            "drawdown": 0.0021064494343810865,
+            "turnover": 0.04000000000000001,
+            "score": -0.04540743188248494,
+            "planner": "sequential"
+        },
+        {
+            "episode": 86,
+            "bar_time": "2025-02-06 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0019298274208401625,
+            "total_value": 1.0386122066859937,
+            "drawdown": 0.0001806870974199376,
+            "turnover": 0.03,
+            "score": 0.28980172939678955,
+            "planner": "sequential"
+        },
+        {
+            "episode": 87,
+            "bar_time": "2025-02-06 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 9.950955388037895e-05,
+            "total_value": 1.0387155585233356,
+            "drawdown": 8.119552363215674e-05,
+            "turnover": 0.029999999999999992,
+            "score": -0.065578919713023,
+            "planner": "sequential"
+        },
+        {
+            "episode": 88,
+            "bar_time": "2025-02-07 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0017292334397207962,
+            "total_value": 1.0369193768451788,
+            "drawdown": 0.0018102885573383866,
+            "turnover": 0.02000000000000001,
+            "score": -0.41897257638326857,
+            "planner": "sequential"
+        },
+        {
+            "episode": 89,
+            "bar_time": "2025-02-07 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0005814777337271926,
+            "total_value": 1.036316431315873,
+            "drawdown": 0.0023907136485778508,
+            "turnover": 0.06999999999999999,
+            "score": -0.1930112507853561,
+            "planner": "sequential"
+        },
+        {
+            "episode": 90,
+            "bar_time": "2025-02-07 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0014951946488695816,
+            "total_value": 1.034766936533234,
+            "drawdown": 0.00388233371519309,
+            "turnover": 0.009999999999999995,
+            "score": -0.3695773618362937,
+            "planner": "sequential"
+        },
+        {
+            "episode": 91,
+            "bar_time": "2025-02-07 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 2.1351109567825447e-05,
+            "total_value": 1.0347890299554732,
+            "drawdown": 0.0038610654977576423,
+            "turnover": 0.03,
+            "score": -0.07010912804241734,
+            "planner": "sequential"
+        },
+        {
+            "episode": 92,
+            "bar_time": "2025-02-10 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0004931518554727684,
+            "total_value": 1.0352993380856186,
+            "drawdown": 0.0033698177338991934,
+            "turnover": 0.02000000000000001,
+            "score": 0.023307338492245533,
+            "planner": "sequential"
+        },
+        {
+            "episode": 93,
+            "bar_time": "2025-02-10 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0007844688593206894,
+            "total_value": 1.036111498176422,
+            "drawdown": 0.0025879923916525024,
+            "turnover": 0.02000000000000001,
+            "score": 0.08093317571685196,
+            "planner": "sequential"
+        },
+        {
+            "episode": 94,
+            "bar_time": "2025-02-10 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0013511589553479907,
+            "total_value": 1.0375114495059221,
+            "drawdown": 0.0012403302254007504,
+            "turnover": 0.039999999999999994,
+            "score": 0.19330694827730474,
+            "planner": "sequential"
+        },
+        {
+            "episode": 95,
+            "bar_time": "2025-02-10 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0005395325052465574,
+            "total_value": 1.038071220657496,
+            "drawdown": 0.0007014669186280466,
+            "turnover": 0.0,
+            "score": 0.02978272043586226,
+            "planner": "sequential"
+        },
+        {
+            "episode": 96,
+            "bar_time": "2025-02-11 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.004759963699077695,
+            "total_value": 1.043012401984883,
+            "drawdown": 0.0,
+            "turnover": 0.01,
+            "score": 0.8653399525604817,
+            "planner": "sequential"
+        },
+        {
+            "episode": 97,
+            "bar_time": "2025-02-11 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00012935118785459496,
+            "total_value": 1.0428774870917392,
+            "drawdown": 0.00012935118785454533,
+            "turnover": 0.019999999999999997,
+            "score": -0.11284098353437853,
+            "planner": "sequential"
+        },
+        {
+            "episode": 98,
+            "bar_time": "2025-02-11 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.001027330300183142,
+            "total_value": 1.0439488667336074,
+            "drawdown": 0.0,
+            "turnover": 0.01,
+            "score": 0.11920285404427941,
+            "planner": "sequential"
+        },
+        {
+            "episode": 99,
+            "bar_time": "2025-02-11 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0011313076358050542,
+            "total_value": 1.0427678394092816,
+            "drawdown": 0.0011313076358050796,
+            "turnover": 0.0,
+            "score": -0.31490312164765477,
+            "planner": "sequential"
+        },
+        {
+            "episode": 100,
+            "bar_time": "2025-02-12 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0007044560381267272,
+            "total_value": 1.0435024235101178,
+            "drawdown": 0.0004276485541734456,
+            "turnover": 0.03,
+            "score": 0.056995728051905004,
+            "planner": "sequential"
+        },
+        {
+            "episode": 101,
+            "bar_time": "2025-02-12 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0017604428216351615,
+            "total_value": 1.0416653971592906,
+            "drawdown": 0.002187338524981118,
+            "turnover": 0.039999999999999994,
+            "score": -0.4413037364276713,
+            "planner": "sequential"
+        },
+        {
+            "episode": 102,
+            "bar_time": "2025-02-12 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0006276914987032005,
+            "total_value": 1.0410115526450003,
+            "drawdown": 0.0028136570498875093,
+            "turnover": 0.02999999999999999,
+            "score": -0.20907055352756965,
+            "planner": "sequential"
+        },
+        {
+            "episode": 103,
+            "bar_time": "2025-02-12 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0024183931380486064,
+            "total_value": 1.0435291278405463,
+            "drawdown": 0.0004020684407412034,
+            "turnover": 0.019999999999999997,
+            "score": 0.41134027153974034,
+            "planner": "sequential"
+        },
+        {
+            "episode": 104,
+            "bar_time": "2025-02-13 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0015380617443369,
+            "total_value": 1.0451341400711789,
+            "drawdown": 0.0,
+            "turnover": 0.030000000000000006,
+            "score": 0.22945762274582002,
+            "planner": "sequential"
+        },
+        {
+            "episode": 105,
+            "bar_time": "2025-02-13 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.002526889155685716,
+            "total_value": 1.0477750781959618,
+            "drawdown": 0.0,
+            "turnover": 0.02000000000000001,
+            "score": 0.4294596617635437,
+            "planner": "sequential"
+        },
+        {
+            "episode": 106,
+            "bar_time": "2025-02-13 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0009575038199270722,
+            "total_value": 1.0467718295561648,
+            "drawdown": 0.000957503819927111,
+            "turnover": 0.0,
+            "score": -0.2869312989036877,
+            "planner": "sequential"
+        },
+        {
+            "episode": 107,
+            "bar_time": "2025-02-13 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00037902187627755947,
+            "total_value": 1.0463750801332918,
+            "drawdown": 0.0013361627813103575,
+            "turnover": 0.019999999999999997,
+            "score": -0.16645916478320585,
+            "planner": "sequential"
+        },
+        {
+            "episode": 108,
+            "bar_time": "2025-02-14 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.001791096695497349,
+            "total_value": 1.0445009211850143,
+            "drawdown": 0.003124866280065521,
+            "turnover": 0.05000000000000001,
+            "score": -0.4557584548144963,
+            "planner": "sequential"
+        },
+        {
+            "episode": 109,
+            "bar_time": "2025-02-14 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.00030643458958725474,
+            "total_value": 1.0441808499739074,
+            "drawdown": 0.0034303433025367745,
+            "turnover": 0.02000000000000001,
+            "score": -0.14655289092875928,
+            "planner": "sequential"
+        },
+        {
+            "episode": 110,
+            "bar_time": "2025-02-14 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.002226380497626993,
+            "total_value": 1.0418561060935299,
+            "drawdown": 0.00564908655073486,
+            "turnover": 0.019999999999999993,
+            "score": -0.5417543668679475,
+            "planner": "sequential"
+        },
+        {
+            "episode": 111,
+            "bar_time": "2025-02-14 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0025655659815599263,
+            "total_value": 1.039183155510056,
+            "drawdown": 0.008200159428013231,
+            "turnover": 0.059999999999999984,
+            "score": -0.6056801368354611,
+            "planner": "sequential"
+        },
+        {
+            "episode": 112,
+            "bar_time": "2025-02-18 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -2.535257405472468e-07,
+            "total_value": 1.039182892050377,
+            "drawdown": 0.008200410874802189,
+            "turnover": 0.029999999999999975,
+            "score": -0.07172443761084957,
+            "planner": "sequential"
+        },
+        {
+            "episode": 113,
+            "bar_time": "2025-02-18 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0022840904934320204,
+            "total_value": 1.0368093042857074,
+            "drawdown": 0.010465770887712934,
+            "turnover": 0.01999999999999998,
+            "score": -0.5435963904738267,
+            "planner": "sequential"
+        },
+        {
+            "episode": 114,
+            "bar_time": "2025-02-18 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0014676698354452826,
+            "total_value": 1.0383309980267164,
+            "drawdown": 0.009013461348504396,
+            "turnover": 0.009999999999999998,
+            "score": 0.23828992228843843,
+            "planner": "sequential"
+        },
+        {
+            "episode": 115,
+            "bar_time": "2025-02-18 15:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011401127283392227,
+            "total_value": 1.0395148124137958,
+            "drawdown": 0.007883624982174941,
+            "turnover": 0.009999999999999981,
+            "score": 0.16886585097965556,
+            "planner": "sequential"
+        },
+        {
+            "episode": 116,
+            "bar_time": "2025-02-19 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0012230461530353687,
+            "total_value": 1.040786187006142,
+            "drawdown": 0.006670220866345922,
+            "turnover": 0.030000000000000013,
+            "score": 0.18539523796024493,
+            "planner": "sequential"
+        },
+        {
+            "episode": 117,
+            "bar_time": "2025-02-19 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0017224892054033796,
+            "total_value": 1.0425789299783927,
+            "drawdown": 0.004959221044382645,
+            "turnover": 0.02000000000000001,
+            "score": 0.2891462168545718,
+            "planner": "sequential"
+        },
+        {
+            "episode": 118,
+            "bar_time": "2025-02-19 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0022760397305451483,
+            "total_value": 1.044951881045253,
+            "drawdown": 0.002694468697966947,
+            "turnover": 0.009999999999999981,
+            "score": 0.4034665203711807,
+            "planner": "sequential"
+        },
+        {
+            "episode": 119,
+            "bar_time": "2025-02-19 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0035629453648498965,
+            "total_value": 1.0412287745841915,
+            "drawdown": 0.006247813818058764,
+            "turnover": 0.010000000000000009,
+            "score": -0.8210968193365524,
+            "planner": "sequential"
+        },
+        {
+            "episode": 120,
+            "bar_time": "2025-02-20 09:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0014044662971916312,
+            "total_value": 1.039766403862622,
+            "drawdown": 0.007643505271311687,
+            "turnover": 0.029999999999999992,
+            "score": -0.36461709491198546,
+            "planner": "sequential"
+        },
+        {
+            "episode": 121,
+            "bar_time": "2025-02-20 11:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.001362416661409238,
+            "total_value": 1.038349808790026,
+            "drawdown": 0.00899550829378767,
+            "turnover": 0.04000000000000001,
+            "score": -0.3535588697312476,
+            "planner": "sequential"
+        },
+        {
+            "episode": 122,
+            "bar_time": "2025-02-20 13:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0011581742248462123,
+            "total_value": 1.0395523987749407,
+            "drawdown": 0.007847752434786689,
+            "turnover": 0.01999999999999999,
+            "score": 0.17807025212101157,
+            "planner": "sequential"
+        },
+        {
+            "episode": 123,
+            "bar_time": "2025-02-20 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.01203727761016696,
+            "total_value": 1.0270390179605717,
+            "drawdown": 0.019790564470280235,
+            "turnover": 0.03999999999999998,
+            "score": -1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 124,
+            "bar_time": "2025-02-21 09:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.00011755103470131058,
+            "total_value": 1.0271597474598118,
+            "drawdown": 0.019675339836909594,
+            "turnover": 0.019999999999999976,
+            "score": -0.019375937254854335,
+            "planner": "sequential"
+        },
+        {
+            "episode": 125,
+            "bar_time": "2025-02-21 11:30:00-05:00",
+            "phase": "train",
+            "port_return": 0.0015625902486473343,
+            "total_value": 1.0287647772649955,
+            "drawdown": 0.018143494082430264,
+            "turnover": 0.04000000000000003,
+            "score": 0.2587531564656273,
+            "planner": "sequential"
+        },
+        {
+            "episode": 126,
+            "bar_time": "2025-02-21 13:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0009583738526901626,
+            "total_value": 1.027778836001896,
+            "drawdown": 0.01908447968479547,
+            "turnover": 0.04,
+            "score": -0.22907183054646643,
+            "planner": "sequential"
+        },
+        {
+            "episode": 127,
+            "bar_time": "2025-02-21 15:30:00-05:00",
+            "phase": "train",
+            "port_return": -0.0006899935961084116,
+            "total_value": 1.027069675186839,
+            "drawdown": 0.019761305112136363,
+            "turnover": 0.02,
+            "score": -0.17608044607235068,
+            "planner": "sequential"
+        },
+        {
+            "episode": 128,
+            "bar_time": "2025-02-24 09:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.00024863102317622144,
+            "total_value": 1.0273250365710538,
+            "drawdown": 0.019517587362469547,
+            "turnover": 0.039999999999999994,
+            "score": 0.007128331296719754,
+            "planner": "sequential"
+        },
+        {
+            "episode": 129,
+            "bar_time": "2025-02-24 11:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.00022698911266321364,
+            "total_value": 1.0270918449725859,
+            "drawdown": 0.019740146195295967,
+            "turnover": 0.0,
+            "score": -0.08574176924604965,
+            "planner": "sequential"
+        },
+        {
+            "episode": 130,
+            "bar_time": "2025-02-24 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0018105920070540383,
+            "total_value": 1.025232200687568,
+            "drawdown": 0.02151499685143081,
+            "turnover": 0.03,
+            "score": -0.39479068700380987,
+            "planner": "sequential"
+        },
+        {
+            "episode": 131,
+            "bar_time": "2025-02-24 15:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.003000383897042391,
+            "total_value": 1.0221561105018957,
+            "drawdown": 0.024450827498375276,
+            "turnover": 0.08,
+            "score": -0.6230611140900004,
+            "planner": "sequential"
+        },
+        {
+            "episode": 132,
+            "bar_time": "2025-02-25 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -4.447358406391085e-05,
+            "total_value": 1.0221106515561889,
+            "drawdown": 0.024494213666507007,
+            "turnover": 0.04000000000000001,
+            "score": -0.04185593700679709,
+            "planner": "sequential"
+        },
+        {
+            "episode": 133,
+            "bar_time": "2025-02-25 11:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0002970048944823183,
+            "total_value": 1.0224142234224036,
+            "drawdown": 0.02420448367337007,
+            "turnover": 0.04000000000000001,
+            "score": 0.02542511905051793,
+            "planner": "sequential"
+        },
+        {
+            "episode": 134,
+            "bar_time": "2025-02-25 13:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.002993200820590245,
+            "total_value": 1.0254745145149347,
+            "drawdown": 0.021283731733172963,
+            "turnover": 0.03,
+            "score": 0.5547576953861373,
+            "planner": "sequential"
+        },
+        {
+            "episode": 135,
+            "bar_time": "2025-02-25 15:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0010719993680900972,
+            "total_value": 1.026573822546487,
+            "drawdown": 0.020234548512051483,
+            "turnover": 0.01999999999999999,
+            "score": 0.17388914459571617,
+            "planner": "sequential"
+        },
+        {
+            "episode": 136,
+            "bar_time": "2025-02-26 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0022194262900421154,
+            "total_value": 1.0242954176160584,
+            "drawdown": 0.02240906571315886,
+            "turnover": 0.020000000000000004,
+            "score": -0.4761501796467859,
+            "planner": "sequential"
+        },
+        {
+            "episode": 137,
+            "bar_time": "2025-02-26 11:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0025819150277456696,
+            "total_value": 1.0216507738844645,
+            "drawdown": 0.024933122437381956,
+            "turnover": 0.04000000000000001,
+            "score": -0.54377922256937,
+            "planner": "sequential"
+        },
+        {
+            "episode": 138,
+            "bar_time": "2025-02-26 13:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0008971459860615884,
+            "total_value": 1.0225673437754117,
+            "drawdown": 0.024058345102034976,
+            "turnover": 0.05,
+            "score": 0.14601999639100416,
+            "planner": "sequential"
+        },
+        {
+            "episode": 139,
+            "bar_time": "2025-02-26 15:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0033770208003177766,
+            "total_value": 1.026020574965067,
+            "drawdown": 0.020762569833547913,
+            "turnover": 0.04999999999999999,
+            "score": 0.6337611583476034,
+            "planner": "sequential"
+        },
+        {
+            "episode": 140,
+            "bar_time": "2025-02-27 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0008179770720352777,
+            "total_value": 1.0251813136593093,
+            "drawdown": 0.02156356359950268,
+            "turnover": 0.009999999999999995,
+            "score": -0.1987514483300249,
+            "planner": "sequential"
+        },
+        {
+            "episode": 141,
+            "bar_time": "2025-02-27 11:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0017320186184963111,
+            "total_value": 1.0234056805367169,
+            "drawdown": 0.023258233724363527,
+            "turnover": 0.0,
+            "score": -0.37875321020933284,
+            "planner": "sequential"
+        },
+        {
+            "episode": 142,
+            "bar_time": "2025-02-27 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.002247626302344449,
+            "total_value": 1.0211054470111738,
+            "drawdown": 0.02545358420884307,
+            "turnover": 0.009999999999999995,
+            "score": -0.47840252232684494,
+            "planner": "sequential"
+        },
+        {
+            "episode": 143,
+            "bar_time": "2025-02-27 15:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0024406041119651423,
+            "total_value": 1.0235975611638992,
+            "drawdown": 0.02307510221916232,
+            "turnover": 0.05000000000000001,
+            "score": 0.45444942462915294,
+            "planner": "sequential"
+        },
+        {
+            "episode": 144,
+            "bar_time": "2025-02-28 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0013342120555030566,
+            "total_value": 1.0222318649578108,
+            "drawdown": 0.024378527195102598,
+            "turnover": 0.029999999999999992,
+            "score": -0.2980361925496238,
+            "planner": "sequential"
+        },
+        {
+            "episode": 145,
+            "bar_time": "2025-02-28 11:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0008295208419801404,
+            "total_value": 1.021383902320492,
+            "drawdown": 0.025187825540677677,
+            "turnover": 0.009999999999999998,
+            "score": -0.1962369558350379,
+            "planner": "sequential"
+        },
+        {
+            "episode": 146,
+            "bar_time": "2025-02-28 13:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.00739595461115305,
+            "total_value": 1.0289380113026168,
+            "drawdown": 0.01797815894397714,
+            "turnover": 0.029999999999999992,
+            "score": 1.0,
+            "planner": "sequential"
+        },
+        {
+            "episode": 147,
+            "bar_time": "2025-02-28 15:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0002177076159007079,
+            "total_value": 1.029162018943967,
+            "drawdown": 0.017764365310198493,
+            "turnover": 0.020000000000000004,
+            "score": 0.003975682652791145,
+            "planner": "sequential"
+        },
+        {
+            "episode": 148,
+            "bar_time": "2025-03-03 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0010950740181969137,
+            "total_value": 1.0280350103565064,
+            "drawdown": 0.01883998603349445,
+            "turnover": 0.0,
+            "score": -0.2529543202922516,
+            "planner": "sequential"
+        },
+        {
+            "episode": 149,
+            "bar_time": "2025-03-03 11:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0028175105310715614,
+            "total_value": 1.0251385108885165,
+            "drawdown": 0.02160441470551154,
+            "turnover": 0.0,
+            "score": -0.5875952003324498,
+            "planner": "sequential"
+        },
+        {
+            "episode": 150,
+            "bar_time": "2025-03-03 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0009828970276137255,
+            "total_value": 1.0241309052932719,
+            "drawdown": 0.022566076818127806,
+            "turnover": 0.049999999999999996,
+            "score": -0.2257015596587555,
+            "planner": "sequential"
+        },
+        {
+            "episode": 151,
+            "bar_time": "2025-03-03 15:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0010785857079875696,
+            "total_value": 1.0230262923357143,
+            "drawdown": 0.023620323078173897,
+            "turnover": 0.019999999999999993,
+            "score": -0.24358209624136934,
+            "planner": "sequential"
+        },
+        {
+            "episode": 152,
+            "bar_time": "2025-03-04 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.001121255423349662,
+            "total_value": 1.0218792185572037,
+            "drawdown": 0.024715094086170813,
+            "turnover": 0.019999999999999997,
+            "score": -0.25098817950906405,
+            "planner": "sequential"
+        },
+        {
+            "episode": 153,
+            "bar_time": "2025-03-04 11:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0014523441902481746,
+            "total_value": 1.0233633389034105,
+            "drawdown": 0.023298644719230203,
+            "turnover": 0.049999999999999996,
+            "score": 0.2582049848997526,
+            "planner": "sequential"
+        },
+        {
+            "episode": 154,
+            "bar_time": "2025-03-04 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.004287024106427262,
+            "total_value": 1.0189761555998977,
+            "drawdown": 0.027485786974098963,
+            "turnover": 0.02,
+            "score": -0.8708854299256229,
+            "planner": "sequential"
+        },
+        {
+            "episode": 155,
+            "bar_time": "2025-03-04 15:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0022978484106971515,
+            "total_value": 1.0166347028602143,
+            "drawdown": 0.029720477212880854,
+            "turnover": 0.029999999999999992,
+            "score": -0.47527245804003126,
+            "planner": "sequential"
+        },
+        {
+            "episode": 156,
+            "bar_time": "2025-03-05 09:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0023106094607139903,
+            "total_value": 1.018983748622733,
+            "drawdown": 0.027478540167992022,
+            "turnover": 0.030000000000000013,
+            "score": 0.4323303313082469,
+            "planner": "sequential"
+        },
+        {
+            "episode": 157,
+            "bar_time": "2025-03-05 11:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.002513811921656331,
+            "total_value": 1.0215452821179951,
+            "drawdown": 0.02503380412819959,
+            "turnover": 0.020000000000000004,
+            "score": 0.4696654787791892,
+            "planner": "sequential"
+        },
+        {
+            "episode": 158,
+            "bar_time": "2025-03-05 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0008476415828029828,
+            "total_value": 1.0206793778581555,
+            "drawdown": 0.025860226017647907,
+            "turnover": 0.03000000000000002,
+            "score": -0.1941755888847769,
+            "planner": "sequential"
+        },
+        {
+            "episode": 159,
+            "bar_time": "2025-03-05 15:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0035858557668465556,
+            "total_value": 1.0170193688249616,
+            "drawdown": 0.029353350743897073,
+            "turnover": 0.0,
+            "score": -0.7297182011171887,
+            "planner": "sequential"
+        },
+        {
+            "episode": 160,
+            "bar_time": "2025-03-06 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0020423014153499062,
+            "total_value": 1.014942308728572,
+            "drawdown": 0.031335703769477495,
+            "turnover": 0.02000000000000001,
+            "score": -0.42257908022337204,
+            "planner": "sequential"
+        },
+        {
+            "episode": 161,
+            "bar_time": "2025-03-06 11:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.001068181830592641,
+            "total_value": 1.0160264516618556,
+            "drawdown": 0.03030099416830033,
+            "turnover": 0.04000000000000001,
+            "score": 0.19163787081386827,
+            "planner": "sequential"
+        },
+        {
+            "episode": 162,
+            "bar_time": "2025-03-06 13:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.003928909159373213,
+            "total_value": 1.0200183272939554,
+            "drawdown": 0.026491134862453004,
+            "turnover": 0.030000000000000002,
+            "score": 0.7510421757389014,
+            "planner": "sequential"
+        },
+        {
+            "episode": 163,
+            "bar_time": "2025-03-06 15:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.004750499791369316,
+            "total_value": 1.024863924144958,
+            "drawdown": 0.021866481201721102,
+            "turnover": 0.030000000000000006,
+            "score": 0.9013388075043015,
+            "planner": "sequential"
+        },
+        {
+            "episode": 164,
+            "bar_time": "2025-03-07 09:30:00-05:00",
+            "phase": "val",
+            "port_return": -2.340229843510698e-05,
+            "total_value": 1.0248399399735497,
+            "drawdown": 0.021889371774237436,
+            "turnover": 0.009999999999999998,
+            "score": -0.03448208550514754,
+            "planner": "sequential"
+        },
+        {
+            "episode": 165,
+            "bar_time": "2025-03-07 11:30:00-05:00",
+            "phase": "val",
+            "port_return": 0.0018558422258904057,
+            "total_value": 1.0267418812089315,
+            "drawdown": 0.020074152768783986,
+            "turnover": 0.0,
+            "score": 0.333599448940163,
+            "planner": "sequential"
+        },
+        {
+            "episode": 166,
+            "bar_time": "2025-03-07 13:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.0019064642706012353,
+            "total_value": 1.0247844344972767,
+            "drawdown": 0.02194234638436898,
+            "turnover": 0.019999999999999993,
+            "score": -0.4054472513909658,
+            "planner": "sequential"
+        },
+        {
+            "episode": 167,
+            "bar_time": "2025-03-07 15:30:00-05:00",
+            "phase": "val",
+            "port_return": -0.004512922139146797,
+            "total_value": 1.0201596621349809,
+            "drawdown": 0.026356244422732995,
+            "turnover": 0.009999999999999995,
+            "score": -0.9075460587370169,
+            "planner": "sequential"
+        },
+        {
+            "episode": 168,
+            "bar_time": "2025-03-10 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0015950443854929755,
+            "total_value": 1.018532462193586,
+            "drawdown": 0.027909249428536814,
+            "turnover": 0.05000000000000001,
+            "score": -0.3347729880244563,
+            "planner": "sequential"
+        },
+        {
+            "episode": 169,
+            "bar_time": "2025-03-10 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0023121049301153994,
+            "total_value": 1.0161775082662658,
+            "drawdown": 0.030156825245452528,
+            "turnover": 0.019999999999999997,
+            "score": -0.4727492001085211,
+            "planner": "sequential"
+        },
+        {
+            "episode": 170,
+            "bar_time": "2025-03-10 13:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.00011080307159135072,
+            "total_value": 1.0160649126770678,
+            "drawdown": 0.03026428684817736,
+            "turnover": 0.019999999999999997,
+            "score": -0.04077467121784207,
+            "planner": "sequential"
+        },
+        {
+            "episode": 171,
+            "bar_time": "2025-03-10 15:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.005003944966523163,
+            "total_value": 1.0109805797716167,
+            "drawdown": 0.03511679098886104,
+            "turnover": 0.039999999999999994,
+            "score": -0.9890809581364761,
+            "planner": "sequential"
+        },
+        {
+            "episode": 172,
+            "bar_time": "2025-03-11 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0025847796820961254,
+            "total_value": 1.0083674177100292,
+            "drawdown": 0.03761080150310876,
+            "turnover": 0.02,
+            "score": -0.5141212021662653,
+            "planner": "sequential"
+        },
+        {
+            "episode": 173,
+            "bar_time": "2025-03-11 11:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0017810955664047524,
+            "total_value": 1.0101634164470197,
+            "drawdown": 0.03589669436851004,
+            "turnover": 0.030000000000000006,
+            "score": 0.3359068902290625,
+            "planner": "sequential"
+        },
+        {
+            "episode": 174,
+            "bar_time": "2025-03-11 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.00015893571211121144,
+            "total_value": 1.0103239674889615,
+            "drawdown": 0.035743463923080636,
+            "turnover": 0.04000000000000002,
+            "score": 0.018998010626898907,
+            "planner": "sequential"
+        },
+        {
+            "episode": 175,
+            "bar_time": "2025-03-11 15:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.001987224065342314,
+            "total_value": 1.0083162273869752,
+            "drawdown": 0.03765965771673635,
+            "turnover": 0.010000000000000009,
+            "score": -0.39953673414491364,
+            "planner": "sequential"
+        },
+        {
+            "episode": 176,
+            "bar_time": "2025-03-12 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.00023984526256740394,
+            "total_value": 1.0080743875166667,
+            "drawdown": 0.03789047048881045,
+            "turnover": 0.0,
+            "score": -0.05673284173003676,
+            "planner": "sequential"
+        },
+        {
+            "episode": 177,
+            "bar_time": "2025-03-12 11:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0004976562222993511,
+            "total_value": 1.008576062008155,
+            "drawdown": 0.03741167069491569,
+            "turnover": 0.029999999999999992,
+            "score": 0.08803160445885043,
+            "planner": "sequential"
+        },
+        {
+            "episode": 178,
+            "bar_time": "2025-03-12 13:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.00237639013188465,
+            "total_value": 1.0061792918071437,
+            "drawdown": 0.03969915610174361,
+            "turnover": 0.020000000000000004,
+            "score": -0.47610234059218315,
+            "planner": "sequential"
+        },
+        {
+            "episode": 179,
+            "bar_time": "2025-03-12 15:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.00021438555604197683,
+            "total_value": 1.0059635815001917,
+            "drawdown": 0.03990503073213032,
+            "turnover": 0.04,
+            "score": -0.0495638559241267,
+            "planner": "sequential"
+        },
+        {
+            "episode": 180,
+            "bar_time": "2025-03-13 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0028525619116764925,
+            "total_value": 1.0030940081030706,
+            "drawdown": 0.04264376107305607,
+            "turnover": 0.009999999999999995,
+            "score": -0.5676880490620446,
+            "planner": "sequential"
+        },
+        {
+            "episode": 181,
+            "bar_time": "2025-03-13 11:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0007931360009638817,
+            "total_value": 1.0038895980732483,
+            "drawdown": 0.04188444737421573,
+            "turnover": 0.02326732673267328,
+            "score": 0.1522636542388927,
+            "planner": "sequential"
+        },
+        {
+            "episode": 182,
+            "bar_time": "2025-03-13 13:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.001058453272578188,
+            "total_value": 1.0028270278428606,
+            "drawdown": 0.04289856791640042,
+            "turnover": 0.06465346534653466,
+            "score": -0.21384186312684914,
+            "planner": "sequential"
+        },
+        {
+            "episode": 183,
+            "bar_time": "2025-03-13 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0038925556264744923,
+            "total_value": 1.0067305878324708,
+            "drawdown": 0.0391729973518368,
+            "turnover": 0.019999999999999997,
+            "score": 0.7621716729275301,
+            "planner": "sequential"
+        },
+        {
+            "episode": 184,
+            "bar_time": "2025-03-14 09:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.002638745138005509,
+            "total_value": 1.009387093276395,
+            "drawdown": 0.03663761977013464,
+            "turnover": 0.07,
+            "score": 0.5112954520039504,
+            "planner": "sequential"
+        },
+        {
+            "episode": 185,
+            "bar_time": "2025-03-14 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0011380951420145668,
+            "total_value": 1.008238314729125,
+            "drawdown": 0.037734017815073906,
+            "turnover": 0.009999999999999998,
+            "score": -0.2349504818025567,
+            "planner": "sequential"
+        },
+        {
+            "episode": 186,
+            "bar_time": "2025-03-14 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.003245365471947251,
+            "total_value": 1.0115104165432411,
+            "drawdown": 0.03461111302166153,
+            "turnover": 0.0,
+            "score": 0.6294784247718956,
+            "planner": "sequential"
+        },
+        {
+            "episode": 187,
+            "bar_time": "2025-03-14 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0019638341395924507,
+            "total_value": 1.0134968552318022,
+            "drawdown": 0.03271524936743024,
+            "turnover": 0.020000000000000007,
+            "score": 0.37431445285642956,
+            "planner": "sequential"
+        },
+        {
+            "episode": 188,
+            "bar_time": "2025-03-17 09:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0013051168501291431,
+            "total_value": 1.0148195870551182,
+            "drawdown": 0.03145282974050664,
+            "turnover": 0.0,
+            "score": 0.2430108998504459,
+            "planner": "sequential"
+        },
+        {
+            "episode": 189,
+            "bar_time": "2025-03-17 11:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.002983753630475109,
+            "total_value": 1.017847558682271,
+            "drawdown": 0.02856292360495859,
+            "turnover": 0.029999999999999992,
+            "score": 0.5727387486427612,
+            "planner": "sequential"
+        },
+        {
+            "episode": 190,
+            "bar_time": "2025-03-17 13:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0008216201447261858,
+            "total_value": 1.0170112746237974,
+            "drawdown": 0.029361075876258635,
+            "turnover": 0.03,
+            "score": -0.1815300685837875,
+            "planner": "sequential"
+        },
+        {
+            "episode": 191,
+            "bar_time": "2025-03-17 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0013564572114569161,
+            "total_value": 1.0183908069013938,
+            "drawdown": 0.028044445707910183,
+            "turnover": 0.06000000000000002,
+            "score": 0.25066342174138523,
+            "planner": "sequential"
+        },
+        {
+            "episode": 192,
+            "bar_time": "2025-03-18 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0012488654242931445,
+            "total_value": 1.0171189738342368,
+            "drawdown": 0.029258287393615166,
+            "turnover": 0.020000000000000007,
+            "score": -0.26740669658141564,
+            "planner": "sequential"
+        },
+        {
+            "episode": 193,
+            "bar_time": "2025-03-18 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0007826023560025947,
+            "total_value": 1.0163229741289792,
+            "drawdown": 0.030017992144970872,
+            "turnover": 0.020000000000000007,
+            "score": -0.1738531340467488,
+            "planner": "sequential"
+        },
+        {
+            "episode": 194,
+            "bar_time": "2025-03-18 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.00015326742603108474,
+            "total_value": 1.0164787433352402,
+            "drawdown": 0.029869325499330437,
+            "turnover": 0.029999999999999995,
+            "score": 0.013302692734109587,
+            "planner": "sequential"
+        },
+        {
+            "episode": 195,
+            "bar_time": "2025-03-18 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.001880048784594148,
+            "total_value": 1.0183897729612135,
+            "drawdown": 0.028045432503837932,
+            "turnover": 0.02,
+            "score": 0.35818640992592554,
+            "planner": "sequential"
+        },
+        {
+            "episode": 196,
+            "bar_time": "2025-03-19 09:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.00030262855353490784,
+            "total_value": 1.0186979667851395,
+            "drawdown": 0.027751291298974922,
+            "turnover": 0.0,
+            "score": 0.04136503671082234,
+            "planner": "sequential"
+        },
+        {
+            "episode": 197,
+            "bar_time": "2025-03-19 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0013457699405552048,
+            "total_value": 1.0173270336829352,
+            "drawdown": 0.029059714385888488,
+            "turnover": 0.0,
+            "score": -0.28945781870942955,
+            "planner": "sequential"
+        },
+        {
+            "episode": 198,
+            "bar_time": "2025-03-19 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.001813655945119706,
+            "total_value": 1.0191721149057051,
+            "drawdown": 0.027298762764528337,
+            "turnover": 0.019999999999999997,
+            "score": 0.3462734034090079,
+            "planner": "sequential"
+        },
+        {
+            "episode": 199,
+            "bar_time": "2025-03-19 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0026369400125083684,
+            "total_value": 1.0218596106351328,
+            "drawdown": 0.02473380795184574,
+            "turnover": 0.049999999999999996,
+            "score": 0.5098665341477436,
+            "planner": "sequential"
+        },
+        {
+            "episode": 200,
+            "bar_time": "2025-03-20 09:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0012236198714429083,
+            "total_value": 1.0206092429097346,
+            "drawdown": 0.025927163044382362,
+            "turnover": 0.03,
+            "score": -0.2685908859973856,
+            "planner": "sequential"
+        },
+        {
+            "episode": 201,
+            "bar_time": "2025-03-20 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.001719722731085728,
+            "total_value": 1.0188540779951465,
+            "drawdown": 0.027602298243828188,
+            "turnover": 0.010000000000000002,
+            "score": -0.3675064767275576,
+            "planner": "sequential"
+        },
+        {
+            "episode": 202,
+            "bar_time": "2025-03-20 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0017210754727055926,
+            "total_value": 1.0206076027590498,
+            "drawdown": 0.025928728409620527,
+            "turnover": 0.04999999999999999,
+            "score": 0.327940821168594,
+            "planner": "sequential"
+        },
+        {
+            "episode": 203,
+            "bar_time": "2025-03-20 15:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0031834222920143285,
+            "total_value": 1.0173585777650274,
+            "drawdown": 0.029029608609612085,
+            "turnover": 0.029999999999999992,
+            "score": -0.6618854050053312,
+            "planner": "sequential"
+        },
+        {
+            "episode": 204,
+            "bar_time": "2025-03-21 09:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.003656875097893184,
+            "total_value": 1.0210789310136843,
+            "drawdown": 0.025478891164544992,
+            "turnover": 0.010000000000000002,
+            "score": 0.7169096210453416,
+            "planner": "sequential"
+        },
+        {
+            "episode": 205,
+            "bar_time": "2025-03-21 11:30:00-04:00",
+            "phase": "test",
+            "port_return": -0.0005577167533379091,
+            "total_value": 1.0205094581873775,
+            "drawdown": 0.026022397913424075,
+            "turnover": 0.019999999999999997,
+            "score": -0.13337370797377007,
+            "planner": "sequential"
+        },
+        {
+            "episode": 206,
+            "bar_time": "2025-03-21 13:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0029546476002359555,
+            "total_value": 1.023524704009029,
+            "drawdown": 0.023144637328735368,
+            "turnover": 0.0,
+            "score": 0.5738910478658127,
+            "planner": "sequential"
+        },
+        {
+            "episode": 207,
+            "bar_time": "2025-03-21 15:30:00-04:00",
+            "phase": "test",
+            "port_return": 0.0,
+            "total_value": 1.023524704009029,
+            "drawdown": 0.023144637328735368,
+            "turnover": 0.0,
+            "score": -0.023268518059537297,
+            "planner": "sequential"
+        }
+    ],
+    "allocation_history": [
+        {
+            "bar_time": "2025-03-17 09:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.02,
+                "JNJ": 0.13,
+                "UNH": 0.14,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.03,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.0013051168501291431
+        },
+        {
+            "bar_time": "2025-03-17 11:30:00-04:00",
+            "weights": {
+                "AAPL": 0.08,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.14,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.002983753630475109
+        },
+        {
+            "bar_time": "2025-03-17 13:30:00-04:00",
+            "weights": {
+                "AAPL": 0.08,
+                "NVDA": 0.04,
+                "JNJ": 0.13,
+                "UNH": 0.14,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": -0.0008216201447261858
+        },
+        {
+            "bar_time": "2025-03-17 15:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.12,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": 0.0013564572114569161
+        },
+        {
+            "bar_time": "2025-03-18 09:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.02,
+                "JNJ": 0.13,
+                "UNH": 0.13,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": -0.0012488654242931445
+        },
+        {
+            "bar_time": "2025-03-18 11:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.12,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": -0.0007826023560025947
+        },
+        {
+            "bar_time": "2025-03-18 13:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.04,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": 0.00015326742603108474
+        },
+        {
+            "bar_time": "2025-03-18 15:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": 0.001880048784594148
+        },
+        {
+            "bar_time": "2025-03-19 09:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": 0.00030262855353490784
+        },
+        {
+            "bar_time": "2025-03-19 11:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": -0.0013457699405552048
+        },
+        {
+            "bar_time": "2025-03-19 13:30:00-04:00",
+            "weights": {
+                "AAPL": 0.08,
+                "NVDA": 0.04,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.01
+            },
+            "port_return": 0.001813655945119706
+        },
+        {
+            "bar_time": "2025-03-19 15:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.0026369400125083684
+        },
+        {
+            "bar_time": "2025-03-20 09:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.04,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": -0.0012236198714429083
+        },
+        {
+            "bar_time": "2025-03-20 11:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.05,
+                "JNJ": 0.13,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.02,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": -0.001719722731085728
+        },
+        {
+            "bar_time": "2025-03-20 13:30:00-04:00",
+            "weights": {
+                "AAPL": 0.08,
+                "NVDA": 0.06,
+                "JNJ": 0.12,
+                "UNH": 0.1,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.01,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.0017210754727055926
+        },
+        {
+            "bar_time": "2025-03-20 15:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.05,
+                "JNJ": 0.12,
+                "UNH": 0.1,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": -0.0031834222920143285
+        },
+        {
+            "bar_time": "2025-03-21 09:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.04,
+                "JNJ": 0.12,
+                "UNH": 0.1,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.003656875097893184
+        },
+        {
+            "bar_time": "2025-03-21 11:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.12,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": -0.0005577167533379091
+        },
+        {
+            "bar_time": "2025-03-21 13:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.12,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.0029546476002359555
+        },
+        {
+            "bar_time": "2025-03-21 15:30:00-04:00",
+            "weights": {
+                "AAPL": 0.07,
+                "NVDA": 0.03,
+                "JNJ": 0.12,
+                "UNH": 0.11,
+                "JPM": 0.09,
+                "GS": 0.03,
+                "XOM": 0.02,
+                "PG": 0.09,
+                "CAT": 0.02,
+                "NEE": 0.02
+            },
+            "port_return": 0.0
+        }
+    ],
+    "config_history": [
+        {
+            "episode": 0,
+            "date": "2025-01-06 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 1,
+            "date": "2025-01-06 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 2,
+            "date": "2025-01-06 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 3,
+            "date": "2025-01-06 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 4,
+            "date": "2025-01-07 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 5,
+            "date": "2025-01-07 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 6,
+            "date": "2025-01-07 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 7,
+            "date": "2025-01-07 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 8,
+            "date": "2025-01-08 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 9,
+            "date": "2025-01-08 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 10,
+            "date": "2025-01-08 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 11,
+            "date": "2025-01-08 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 12,
+            "date": "2025-01-10 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 13,
+            "date": "2025-01-10 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 14,
+            "date": "2025-01-10 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 15,
+            "date": "2025-01-10 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 16,
+            "date": "2025-01-13 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 17,
+            "date": "2025-01-13 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 18,
+            "date": "2025-01-13 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 19,
+            "date": "2025-01-13 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 20,
+            "date": "2025-01-14 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 21,
+            "date": "2025-01-14 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 22,
+            "date": "2025-01-14 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 23,
+            "date": "2025-01-14 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 24,
+            "date": "2025-01-15 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 25,
+            "date": "2025-01-15 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 26,
+            "date": "2025-01-15 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 27,
+            "date": "2025-01-15 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 28,
+            "date": "2025-01-16 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 29,
+            "date": "2025-01-16 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 30,
+            "date": "2025-01-16 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 31,
+            "date": "2025-01-16 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 32,
+            "date": "2025-01-17 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 33,
+            "date": "2025-01-17 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 34,
+            "date": "2025-01-17 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 35,
+            "date": "2025-01-17 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 36,
+            "date": "2025-01-21 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 37,
+            "date": "2025-01-21 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 38,
+            "date": "2025-01-21 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 39,
+            "date": "2025-01-21 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 40,
+            "date": "2025-01-22 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 41,
+            "date": "2025-01-22 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 42,
+            "date": "2025-01-22 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 43,
+            "date": "2025-01-22 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 44,
+            "date": "2025-01-23 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 45,
+            "date": "2025-01-23 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 46,
+            "date": "2025-01-23 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 47,
+            "date": "2025-01-23 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 48,
+            "date": "2025-01-24 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 49,
+            "date": "2025-01-24 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 50,
+            "date": "2025-01-24 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 51,
+            "date": "2025-01-24 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 52,
+            "date": "2025-01-27 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 53,
+            "date": "2025-01-27 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 54,
+            "date": "2025-01-27 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 55,
+            "date": "2025-01-27 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 56,
+            "date": "2025-01-28 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 57,
+            "date": "2025-01-28 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 58,
+            "date": "2025-01-28 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 59,
+            "date": "2025-01-28 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 60,
+            "date": "2025-01-29 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 61,
+            "date": "2025-01-29 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 62,
+            "date": "2025-01-29 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 63,
+            "date": "2025-01-29 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 64,
+            "date": "2025-01-30 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 65,
+            "date": "2025-01-30 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 66,
+            "date": "2025-01-30 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 67,
+            "date": "2025-01-30 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 68,
+            "date": "2025-01-31 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 69,
+            "date": "2025-01-31 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 70,
+            "date": "2025-01-31 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 71,
+            "date": "2025-01-31 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 72,
+            "date": "2025-02-03 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 73,
+            "date": "2025-02-03 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 74,
+            "date": "2025-02-03 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 75,
+            "date": "2025-02-03 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 76,
+            "date": "2025-02-04 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 77,
+            "date": "2025-02-04 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 78,
+            "date": "2025-02-04 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 79,
+            "date": "2025-02-04 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 80,
+            "date": "2025-02-05 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 81,
+            "date": "2025-02-05 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 82,
+            "date": "2025-02-05 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 83,
+            "date": "2025-02-05 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 84,
+            "date": "2025-02-06 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 85,
+            "date": "2025-02-06 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 86,
+            "date": "2025-02-06 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 87,
+            "date": "2025-02-06 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 88,
+            "date": "2025-02-07 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 89,
+            "date": "2025-02-07 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 90,
+            "date": "2025-02-07 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 91,
+            "date": "2025-02-07 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 92,
+            "date": "2025-02-10 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 93,
+            "date": "2025-02-10 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 94,
+            "date": "2025-02-10 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 95,
+            "date": "2025-02-10 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 96,
+            "date": "2025-02-11 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 97,
+            "date": "2025-02-11 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 98,
+            "date": "2025-02-11 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 99,
+            "date": "2025-02-11 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 100,
+            "date": "2025-02-12 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 101,
+            "date": "2025-02-12 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 102,
+            "date": "2025-02-12 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 103,
+            "date": "2025-02-12 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 104,
+            "date": "2025-02-13 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 105,
+            "date": "2025-02-13 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 106,
+            "date": "2025-02-13 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 107,
+            "date": "2025-02-13 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 108,
+            "date": "2025-02-14 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 109,
+            "date": "2025-02-14 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 110,
+            "date": "2025-02-14 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 111,
+            "date": "2025-02-14 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 112,
+            "date": "2025-02-18 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 113,
+            "date": "2025-02-18 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 114,
+            "date": "2025-02-18 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 115,
+            "date": "2025-02-18 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 116,
+            "date": "2025-02-19 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 117,
+            "date": "2025-02-19 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 118,
+            "date": "2025-02-19 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 119,
+            "date": "2025-02-19 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 120,
+            "date": "2025-02-20 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 121,
+            "date": "2025-02-20 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 122,
+            "date": "2025-02-20 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 123,
+            "date": "2025-02-20 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 124,
+            "date": "2025-02-21 09:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 125,
+            "date": "2025-02-21 11:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 126,
+            "date": "2025-02-21 13:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 127,
+            "date": "2025-02-21 15:30:00-05:00",
+            "phase": "train",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 128,
+            "date": "2025-02-24 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 129,
+            "date": "2025-02-24 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 130,
+            "date": "2025-02-24 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 131,
+            "date": "2025-02-24 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 132,
+            "date": "2025-02-25 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 133,
+            "date": "2025-02-25 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 134,
+            "date": "2025-02-25 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 135,
+            "date": "2025-02-25 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 136,
+            "date": "2025-02-26 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 137,
+            "date": "2025-02-26 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 138,
+            "date": "2025-02-26 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 139,
+            "date": "2025-02-26 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 140,
+            "date": "2025-02-27 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 141,
+            "date": "2025-02-27 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 142,
+            "date": "2025-02-27 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 143,
+            "date": "2025-02-27 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 144,
+            "date": "2025-02-28 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 145,
+            "date": "2025-02-28 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 146,
+            "date": "2025-02-28 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 147,
+            "date": "2025-02-28 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 148,
+            "date": "2025-03-03 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 149,
+            "date": "2025-03-03 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 150,
+            "date": "2025-03-03 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 151,
+            "date": "2025-03-03 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 152,
+            "date": "2025-03-04 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 153,
+            "date": "2025-03-04 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 154,
+            "date": "2025-03-04 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 155,
+            "date": "2025-03-04 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 156,
+            "date": "2025-03-05 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 157,
+            "date": "2025-03-05 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 158,
+            "date": "2025-03-05 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 159,
+            "date": "2025-03-05 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 160,
+            "date": "2025-03-06 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 161,
+            "date": "2025-03-06 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 162,
+            "date": "2025-03-06 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 163,
+            "date": "2025-03-06 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 164,
+            "date": "2025-03-07 09:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 165,
+            "date": "2025-03-07 11:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 166,
+            "date": "2025-03-07 13:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 167,
+            "date": "2025-03-07 15:30:00-05:00",
+            "phase": "val",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.3333333333333333,
+                "tools": 0.3333333333333333,
+                "memory": 0.3333333333333333
+            }
+        },
+        {
+            "episode": 168,
+            "date": "2025-03-10 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 169,
+            "date": "2025-03-10 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 170,
+            "date": "2025-03-10 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 171,
+            "date": "2025-03-10 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 172,
+            "date": "2025-03-11 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 173,
+            "date": "2025-03-11 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 174,
+            "date": "2025-03-11 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 175,
+            "date": "2025-03-11 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 176,
+            "date": "2025-03-12 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 177,
+            "date": "2025-03-12 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 178,
+            "date": "2025-03-12 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 179,
+            "date": "2025-03-12 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 180,
+            "date": "2025-03-13 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 181,
+            "date": "2025-03-13 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 182,
+            "date": "2025-03-13 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 183,
+            "date": "2025-03-13 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 184,
+            "date": "2025-03-14 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 185,
+            "date": "2025-03-14 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 186,
+            "date": "2025-03-14 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 187,
+            "date": "2025-03-14 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 188,
+            "date": "2025-03-17 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 189,
+            "date": "2025-03-17 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 190,
+            "date": "2025-03-17 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 191,
+            "date": "2025-03-17 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 192,
+            "date": "2025-03-18 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 193,
+            "date": "2025-03-18 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 194,
+            "date": "2025-03-18 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 195,
+            "date": "2025-03-18 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 196,
+            "date": "2025-03-19 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "aggressive_learner",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 197,
+            "date": "2025-03-19 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 198,
+            "date": "2025-03-19 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 199,
+            "date": "2025-03-19 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 200,
+            "date": "2025-03-20 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 201,
+            "date": "2025-03-20 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 202,
+            "date": "2025-03-20 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "compressed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 203,
+            "date": "2025-03-20 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "full_detailed",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 204,
+            "date": "2025-03-21 09:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 205,
+            "date": "2025-03-21 11:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 206,
+            "date": "2025-03-21 13:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "recent_window",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        },
+        {
+            "episode": 207,
+            "date": "2025-03-21 15:30:00-04:00",
+            "phase": "test",
+            "planner": "sequential",
+            "memory_policy": "none",
+            "credits": {
+                "planner": 0.0,
+                "tools": 0.0,
+                "memory": 0.0
+            }
+        }
+    ],
+    "reflections": 49,
+    "total_episodes": 208,
+    "total_days": 52,
+    "portfolio_final": {
+        "total_value": 1.023524704009029,
+        "max_drawdown": 0.04289856791640042,
+        "sharpe_ratio": 1.4775050919012218
+    }
+}
+

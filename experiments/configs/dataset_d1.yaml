@@ -1,0 +1,9 @@
+# Dataset D1: Tech-10 (control) — homogeneous mega-cap tech
+# ~60 trading days, 600 episodes
+benchmark:
+  tickers: ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "META", "NFLX", "AMD", "CRM"]
+  start_date: "2025-01-02"
+  end_date: "2025-03-28"
+  train_end_date: "2025-02-14"
+  val_end_date: "2025-03-07"
+  prediction_horizons: [1, 7, 14]

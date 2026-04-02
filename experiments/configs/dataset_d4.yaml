@@ -1,0 +1,12 @@
+# Dataset D4: Regime-Shift — temporal adaptation test
+# Same tickers as D2 to isolate the temporal effect
+# ~190 trading days, 1900 episodes
+# Regimes: A=Yen carry unwind (Jul-Aug), B=Recovery (Sep-Nov),
+#          C=Post-election (Dec-Jan), D=Tariff correction (Feb-Mar)
+benchmark:
+  tickers: ["AAPL", "NVDA", "JNJ", "UNH", "JPM", "GS", "XOM", "PG", "CAT", "NEE"]
+  start_date: "2024-07-01"
+  end_date: "2025-03-28"
+  train_end_date: "2024-12-06"
+  val_end_date: "2025-01-31"
+  prediction_horizons: [1, 7, 14]

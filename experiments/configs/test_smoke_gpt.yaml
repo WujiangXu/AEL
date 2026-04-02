@@ -1,0 +1,47 @@
+# Quick smoke test with cheap GPT model
+# Runs ~10 bars on D-small, costs < $0.01 with gpt-4o-mini
+# Usage: python experiments/run_portfolio.py --config experiments/configs/test_smoke_gpt.yaml --seed 42
+name: smoke_test
+seed: 42
+num_episodes: 10
+
+llm_model: gpt-4o-mini
+llm_temperature: 0.3
+
+planner:
+  enabled_planners: ["sequential"]
+  selection_method: fixed
+  fixed_planner: sequential
+  evolve: false
+  linucb_alpha: 1.0
+
+tools:
+  enabled_tools: []
+  selection_method: fixed
+  evolve: false
+
+memory:
+  enabled_tiers: []
+  retrieval_top_k: 0
+  evolve: false
+  backend: local
+
+credit:
+  method: uniform
+
+reflection:
+  enabled: false
+
+cold_start:
+  enabled: false
+
+benchmark:
+  tickers: ["AAPL", "NVDA", "JNJ", "UNH", "JPM", "GS", "XOM", "PG", "CAT", "NEE"]
+  start_date: "2025-03-03"
+  end_date: "2025-03-21"
+  train_end_date: "2025-03-10"
+  val_end_date: "2025-03-14"
+  frequency: "1h"
+  bars_per_day: 4
+  prediction_horizons: [1, 2, 4]
+  flat_threshold: 0.001

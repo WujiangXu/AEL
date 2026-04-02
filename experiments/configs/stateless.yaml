@@ -1,0 +1,41 @@
+# Method M1: Stateless — fixed sequential planner, all tools, no memory
+name: stateless
+seed: 42
+num_episodes: 10000
+log_dir: logs/stateless
+
+planner:
+  enabled_planners: ["sequential"]
+  selection_method: fixed
+  fixed_planner: sequential
+  evolve: false
+  linucb_alpha: 1.0
+
+tools:
+  enabled_tools: []  # empty = all
+  selection_method: fixed
+  evolve: false
+
+memory:
+  enabled_tiers: []
+  retrieval_top_k: 0
+  evolve: false
+  backend: local
+
+credit:
+  method: uniform
+
+reflection:
+  enabled: false
+
+cold_start:
+  enabled: false
+
+benchmark:
+  tickers: ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "META", "NFLX", "AMD", "CRM"]
+  start_date: "2025-01-02"
+  end_date: "2025-03-28"
+  prediction_horizons: [1, 7, 14]
+
+llm_model: bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0
+llm_temperature: 0.3

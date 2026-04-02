@@ -1,0 +1,9 @@
+# Dataset D2: Sector-Diverse — 7 GICS sectors, heterogeneity stress test
+# ~125 trading days, 1250 episodes
+benchmark:
+  tickers: ["AAPL", "NVDA", "JNJ", "UNH", "JPM", "GS", "XOM", "PG", "CAT", "NEE"]
+  start_date: "2024-10-01"
+  end_date: "2025-03-28"
+  train_end_date: "2025-01-17"
+  val_end_date: "2025-02-21"
+  prediction_horizons: [1, 7, 14]

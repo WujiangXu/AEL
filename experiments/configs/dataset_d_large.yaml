@@ -1,0 +1,13 @@
+# Dataset D-large: 5 weeks hourly (full statistical power)
+# 1wk coldstart + 2wk train + 1wk val + 1wk test
+# ~25 trading days × 4 bars × 10 tickers = ~1000 episodes
+benchmark:
+  tickers: ["AAPL", "NVDA", "JNJ", "UNH", "JPM", "GS", "XOM", "PG", "CAT", "NEE"]
+  start_date: "2025-02-03"
+  end_date: "2025-03-14"
+  train_end_date: "2025-02-21"
+  val_end_date: "2025-03-07"
+  frequency: "1h"
+  bars_per_day: 4
+  prediction_horizons: [1, 2, 4]  # bars: 1bar=2h, 2bar=4h, 4bar=8h
+  flat_threshold: 0.001

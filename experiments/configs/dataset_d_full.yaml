@@ -1,0 +1,15 @@
+# Dataset D-full: Diverse training (bull+bear+flat), regime-specific testing
+# Train: W02-W09 (8 weeks, 3 bull + 2 bear + 2 flat)
+# Val: W10 (1 week, bear)
+# Test: W11 (bear) + W12 (bull) — report separately
+# ~380 bars total, ~320 training bars
+benchmark:
+  tickers: ["AAPL", "NVDA", "JNJ", "UNH", "JPM", "GS", "XOM", "PG", "CAT", "NEE"]
+  start_date: "2025-01-06"
+  end_date: "2025-03-21"
+  train_end_date: "2025-02-21"
+  val_end_date: "2025-03-07"
+  frequency: "1h"
+  bars_per_day: 4
+  prediction_horizons: [1, 2, 4]
+  flat_threshold: 0.001

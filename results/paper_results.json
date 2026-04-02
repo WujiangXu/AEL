@@ -1,0 +1,59 @@
+{
+  "_description": "Pre-computed results from the paper (5-seed evaluation on D-full). These values match Table 3 and Table 4 in the paper. Use extract_table3.py to recompute from raw backtest logs.",
+  "_metrics": "sharpe (mean, std) from 5 seeds on test phase",
+
+  "table3_baselines": {
+    "Reflexion":      {"sharpe_mean": -0.59, "sharpe_std": 1.33, "sortino_mean": -0.88, "sortino_std": 1.97, "seeds": 5},
+    "ExpeL":          {"sharpe_mean":  0.76, "sharpe_std": 1.93, "sortino_mean":  1.35, "sortino_std": 3.30, "seeds": 5},
+    "FactorMiner":    {"sharpe_mean":  0.85, "sharpe_std": 1.15, "sortino_mean":  1.44, "sortino_std": 1.93, "seeds": 5},
+    "Meta-Reflexion": {"sharpe_mean":  0.20, "sharpe_std": 1.16, "sortino_mean":  0.53, "sortino_std": 1.78, "seeds": 5},
+    "EvoTool":        {"sharpe_mean":  1.37, "sharpe_std": 1.74, "sortino_mean":  2.58, "sortino_std": 3.22, "seeds": 5},
+    "HyperAgent":     {"sharpe_mean":  0.72, "sharpe_std": 0.38, "sortino_mean":  1.22, "sortino_std": 0.72, "seeds": 5}
+  },
+
+  "table3_ael_build": {
+    "Stateless":  {"sharpe_mean": 1.35, "sharpe_std": 1.03, "sortino_mean": 2.51, "sortino_std": 1.93, "seeds": 5},
+    "+Tools":     {"sharpe_mean": 1.29, "sharpe_std": 1.19, "sortino_mean": 2.51, "sortino_std": 2.23, "seeds": 5},
+    "+Memory":    {"sharpe_mean": 1.68, "sharpe_std": 0.96, "sortino_mean": 2.82, "sortino_std": 1.73, "seeds": 5},
+    "AEL":        {"sharpe_mean": 2.13, "sharpe_std": 0.47, "sortino_mean": 3.54, "sortino_std": 0.92, "seeds": 5}
+  },
+
+  "table4_ablation_from_ael": {
+    "-warmup":          {"sharpe_mean": 1.25, "sharpe_std": 0.50, "seeds": 5, "category": "infrastructure"},
+    "+coldstart":       {"sharpe_mean": 0.82, "sharpe_std": 0.84, "seeds": 5, "category": "infrastructure"},
+    "+FCC credit":      {"sharpe_mean": 1.04, "sharpe_std": 1.58, "seeds": 5, "category": "credit"},
+    "+LLM-FCC credit":  {"sharpe_mean": 1.49, "sharpe_std": 1.20, "seeds": 5, "category": "credit"},
+    "+planner evolve":  {"sharpe_mean": 0.41, "sharpe_std": 1.65, "seeds": 5, "category": "complexity"},
+    "+per-tool":        {"sharpe_mean": 0.43, "sharpe_std": 1.06, "seeds": 5, "category": "complexity"},
+    "+skills":          {"sharpe_mean": 1.02, "sharpe_std": 0.65, "seeds": 5, "category": "complexity"}
+  },
+
+  "step5_full_system": {
+    "AEL (FCC)":     {"sharpe_mean": -0.07, "sharpe_std": 1.00, "seeds": 5},
+    "AEL (LLM-FCC)": {"sharpe_mean":  1.37, "sharpe_std": 0.51, "seeds": 5}
+  },
+
+  "full_table_from_ec2": {
+    "_note": "Complete 7-metric table from extract_table3.py on EC2 (commit 13ba204)",
+    "Stateless":          {"sharpe": "1.35+/-1.03", "sortino": "2.51+/-1.93", "calmar": "6.52+/-4.98", "ret_pct": "+0.36+/-0.29", "maxdd_pct": "1.59+/-0.26", "win_rate": 0.47, "tail_ratio": 1.05},
+    "+Tools":             {"sharpe": "1.29+/-1.19", "sortino": "2.51+/-2.23", "calmar": "6.07+/-5.52", "ret_pct": "+0.33+/-0.32", "maxdd_pct": "1.63+/-0.26", "win_rate": 0.49, "tail_ratio": 1.05},
+    "+Memory":            {"sharpe": "0.31+/-1.56", "sortino": "0.90+/-2.66", "calmar": "1.99+/-6.57", "ret_pct": "+0.06+/-0.44", "maxdd_pct": "1.77+/-0.29", "win_rate": 0.48, "tail_ratio": 1.00},
+    "+Reflect":           {"sharpe": "0.61+/-1.18", "sortino": "1.20+/-2.05", "calmar": "2.88+/-5.13", "ret_pct": "+0.15+/-0.33", "maxdd_pct": "1.65+/-0.21", "win_rate": 0.47, "tail_ratio": 1.05},
+    "+Skills":            {"sharpe": "1.63+/-0.36", "sortino": "2.90+/-0.75", "calmar": "7.39+/-1.97", "ret_pct": "+0.46+/-0.12", "maxdd_pct": "1.63+/-0.20", "win_rate": 0.48, "tail_ratio": 1.19},
+    "AEL (FCC)":          {"sharpe": "0.99+/-1.11", "sortino": "1.69+/-1.94", "calmar": "5.02+/-5.41", "ret_pct": "+0.29+/-0.30", "maxdd_pct": "1.77+/-0.38", "win_rate": 0.48, "tail_ratio": 1.00},
+    "Uniform credit":     {"sharpe": "0.18+/-1.48", "sortino": "0.61+/-2.44", "calmar": "1.27+/-6.41", "ret_pct": "-0.03+/-0.50", "maxdd_pct": "2.09+/-0.54", "win_rate": 0.49, "tail_ratio": 0.93},
+    "- per_tool":         {"sharpe": "1.11+/-0.78", "sortino": "1.74+/-1.17", "calmar": "5.30+/-4.04", "ret_pct": "+0.40+/-0.34", "maxdd_pct": "1.82+/-0.22", "win_rate": 0.49, "tail_ratio": 1.05},
+    "- warm-up":          {"sharpe": "-0.70+/-0.60", "sortino": "-0.94+/-0.79", "calmar": "-2.63+/-2.29", "ret_pct": "-0.23+/-0.20", "maxdd_pct": "2.01+/-0.13", "win_rate": 0.45, "tail_ratio": 0.98},
+    "FCC tuned":          {"sharpe": "0.39+/-1.18", "sortino": "0.79+/-1.86", "calmar": "2.21+/-5.59", "ret_pct": "+0.16+/-0.51", "maxdd_pct": "2.32+/-0.27", "win_rate": 0.49, "tail_ratio": 0.83},
+    "AEL (LLM-FCC)":     {"sharpe": "1.37+/-0.51", "sortino": "2.25+/-0.98", "calmar": "6.45+/-2.02", "ret_pct": "+0.45+/-0.10", "maxdd_pct": "1.90+/-0.44", "win_rate": 0.48, "tail_ratio": 0.97},
+    "w/o reflection":     {"sharpe": "0.89+/-1.44", "sortino": "1.72+/-2.89", "calmar": "4.44+/-7.06", "ret_pct": "+0.26+/-0.47", "maxdd_pct": "1.94+/-0.35", "win_rate": 0.48, "tail_ratio": 0.93},
+    "w/o planner evolve": {"sharpe": "-0.46+/-2.07", "sortino": "-0.18+/-3.29", "calmar": "-1.62+/-8.50", "ret_pct": "-0.21+/-0.65", "maxdd_pct": "1.99+/-0.27", "win_rate": 0.47, "tail_ratio": 1.00},
+    "R: -warmup":         {"sharpe": "1.25+/-0.50", "sortino": "2.25+/-0.94", "calmar": "5.40+/-2.28", "ret_pct": "+0.32+/-0.13", "maxdd_pct": "1.56+/-0.11", "win_rate": 0.47, "tail_ratio": 1.16},
+    "R: +coldstart":      {"sharpe": "0.82+/-0.84", "sortino": "1.41+/-1.43", "calmar": "3.84+/-4.13", "ret_pct": "+0.23+/-0.28", "maxdd_pct": "1.76+/-0.27", "win_rate": 0.47, "tail_ratio": 1.09},
+    "R: +FCC credit":     {"sharpe": "1.04+/-1.58", "sortino": "1.96+/-3.00", "calmar": "4.90+/-7.39", "ret_pct": "+0.26+/-0.42", "maxdd_pct": "1.62+/-0.18", "win_rate": 0.49, "tail_ratio": 1.07},
+    "R: +LLM-FCC credit": {"sharpe": "1.49+/-1.20", "sortino": "2.84+/-2.27", "calmar": "7.21+/-5.75", "ret_pct": "+0.41+/-0.34", "maxdd_pct": "1.55+/-0.13", "win_rate": 0.48, "tail_ratio": 1.16},
+    "R: +planner evolve": {"sharpe": "0.41+/-1.65", "sortino": "1.01+/-2.63", "calmar": "2.79+/-7.56", "ret_pct": "+0.07+/-0.53", "maxdd_pct": "1.86+/-0.51", "win_rate": 0.47, "tail_ratio": 0.97},
+    "R: +per-tool":       {"sharpe": "0.43+/-1.06", "sortino": "0.80+/-1.49", "calmar": "2.00+/-4.28", "ret_pct": "+0.11+/-0.33", "maxdd_pct": "1.85+/-0.19", "win_rate": 0.47, "tail_ratio": 0.99},
+    "R: +skills":         {"sharpe": "1.02+/-0.65", "sortino": "1.78+/-1.17", "calmar": "4.35+/-2.81", "ret_pct": "+0.27+/-0.18", "maxdd_pct": "1.65+/-0.12", "win_rate": 0.47, "tail_ratio": 1.07}
+  }
+}

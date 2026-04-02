@@ -1,0 +1,58 @@
+# Method M11: EAEL-NoSkills — Full EAEL minus skills learning system
+# Isolates the value of skills learning: M6 vs M11
+name: eael_no_skills
+seed: 42
+num_episodes: 10000
+log_dir: logs/eael_no_skills
+
+planner:
+  enabled_planners: ["sequential", "decompose", "adaptive", "cot_reasoning", "reflexion", "hypothesis_test"]
+  selection_method: linucb
+  evolve: true
+  linucb_alpha: 1.0
+
+tools:
+  enabled_tools: []  # all tools
+  selection_method: thompson
+  max_tools_per_step: 5
+  evolve: true
+  per_tool_selection: true  # EAEL v2: per-tool Thompson Sampling
+
+memory:
+  enabled_tiers: ["episodic", "semantic", "procedural"]
+  retrieval_top_k: 5
+  retrieval_method: hybrid
+  write_quality_threshold: 0.3
+  eviction_min_score: 0.2
+  max_entries_per_tier: 500
+  evolve: true
+  backend: local
+
+credit:
+  method: fcc
+  use_counterfactual: true
+  use_shapley: true
+  shapley_interval: 20
+  baseline_planner: sequential
+
+reflection:
+  enabled: true
+  structural_problem_threshold: 3
+  max_planner_pool_size: 10
+  planner_probation_days: 5
+  evolve_planners: true
+
+cold_start:
+  enabled: true
+
+skills:
+  enabled: false
+
+benchmark:
+  tickers: ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "TSLA", "META", "NFLX", "AMD", "CRM"]
+  start_date: "2025-01-02"
+  end_date: "2025-03-28"
+  prediction_horizons: [1, 7, 14]
+
+llm_model: bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0
+llm_temperature: 0.3
