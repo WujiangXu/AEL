@@ -1,6 +1,6 @@
 # AEL: Agent Evolving Learning
 
-Code and data for the paper *"AEL: Agent Evolving Learning for Open-Ended Environments"* (COLM 2026 submission).
+Code and data for the paper *"AEL: Agent Evolving Learning for Open-Ended Environments"*.
 
 ## Overview
 
